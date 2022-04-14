@@ -43,24 +43,20 @@ public abstract class ShopAcc {
 	}
 	
 	
-	// here defining abstract bookProduct
+	//abstract bookProduct
 	public void bookProduct(float a) {
 		
 	}
 	
-	// here defining item method to display the item
+	//item method to display the item
 	public void items (float y) {
 		System.out.println("Laptop: 70000\n");
 		System.out.println("Mobile: 20000\n");
-		System.out.println("Sound: 1000\n");
-		System.out.println("Shirt: 800\n");
-		
 		
 	}
 	public String toString() { 
 		return accNm;
 		
 	}
-	
 
 }

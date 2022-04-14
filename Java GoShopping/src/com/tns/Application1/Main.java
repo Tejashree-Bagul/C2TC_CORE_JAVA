@@ -16,7 +16,6 @@ public class Main {
 		normal.bookProduct(10000);
 		
 		System.out.println(prime.toString());
-		System.out.println();
 		System.out.println(normal.toString());
 	}
 
