@@ -22,8 +22,6 @@ public abstract class PrimeAcc extends ShopAcc {
 	
 	
      //Constructor for PrimeAcc
-	
-
 	public PrimeAcc(int accNO, String accNm, float charges,boolean isPrime) {
 		super(accNO, accNm, charges);
 		this.charges = charges;
@@ -37,8 +35,7 @@ public abstract class PrimeAcc extends ShopAcc {
 		System.out.println();
 		
 	}
-
-
+	
 	@Override
 	public String toString() {
 		return "Dear Prime user, Your Product charges are: " +charges;

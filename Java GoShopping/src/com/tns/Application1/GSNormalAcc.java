@@ -9,9 +9,7 @@ public class GSNormalAcc  extends NormalAcc{
 	public GSNormalAcc(int accNO, String accNm, float charges, float deliveryCharges) {
 		super(accNO, accNm, charges);
 	
-	}
-	
-	
+	}	
 	//method of bookProduct
 	
 	@Override
@@ -23,11 +21,6 @@ public class GSNormalAcc  extends NormalAcc{
 	@Override
 	public String toString() {
 		return super.toString();
-	}
-	
-	 
-	
-	
-	
+	}	
 
 }

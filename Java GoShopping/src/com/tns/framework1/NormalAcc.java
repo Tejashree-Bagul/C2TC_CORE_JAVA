@@ -2,8 +2,6 @@ package com.tns.framework1;
 
 public abstract class NormalAcc extends ShopAcc {
 	
-	
-
 	//deliveryCharges who is not belong to prime user
 	
 	private final float deliveyCharges=100;
@@ -13,6 +11,7 @@ public abstract class NormalAcc extends ShopAcc {
 	//getting deliveryCharges values
 	
 	public float getDeliveyCharges() {
+		
 		return deliveyCharges;
 	}
 	

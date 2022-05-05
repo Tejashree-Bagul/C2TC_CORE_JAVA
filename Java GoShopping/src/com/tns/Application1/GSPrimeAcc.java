@@ -15,7 +15,7 @@ public class GSPrimeAcc extends PrimeAcc {
 	//constructor of GSPrimeAcc with member variable
 	public GSPrimeAcc(int accNO, String accNm, float charges, boolean isPrime) {
 		super(accNO, accNm, charges, isPrime);
-		// TODO Auto-generated constructor stub
+	
 	}
 	
 	// method of bookProduct
@@ -28,8 +28,6 @@ public class GSPrimeAcc extends PrimeAcc {
 	@Override
 	public String toString() {
 		return super.toString();
-	}
-	
-	
+	}	
 
 }

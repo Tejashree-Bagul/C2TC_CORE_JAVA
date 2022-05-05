@@ -23,7 +23,6 @@ public abstract class ShopAcc {
 		this.accNm = accNm;
 	}
 	
-	
 	// here declaring charges for shopping
 	private float charges;
 
@@ -31,8 +30,7 @@ public abstract class ShopAcc {
 	public float getCharges() {
 		return charges;
 	}
-	
-	
+		
 	// here defining the constructor for shopping classes
 	
 	public ShopAcc(int accNO, String accNm, float charges )
